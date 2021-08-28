@@ -1,0 +1,22 @@
+body{
+    font-size: 90.0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: purple url(images/background2.jfif) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+h1{
+    color: #fc6900;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2{
+    color: ;
+}
