@@ -114,6 +114,156 @@ nav#utilityMenu{
     background-color: #00fc4c;
     height: 1.8em;
     width: 585px;
-    font-size: 1.7em;
+    font-size: 1.5em;
     float: right;
+}
+
+section#sidebar{
+    width: 238px;
+    float: left;
+    left: 50px;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: 0 0 0 0;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border: #00fc4c solid 8px;
+}
+
+section #main{
+    background-color: rgba(252,251,243,0.7);
+    margin: 0;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    border: #00fc4c solid 8px;
+}
+
+section div.panel{
+    float: right;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #00fc4c solid 5px;
+    border-radius: none;
+    text-align: center;
+}
+
+section div.panel img.shopCategories{
+    width: 80%;
+    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#categoryHeader{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.nalaImage{
+    width: 5%;
+    height: 5%;
+    float: right;
+    position: relative;
+    width: 245px;
+    height: 440px;
+    margin-top: 0px;
+    left: 5px;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #00fc4c solid 5px;
+    border-radius: none;
+    text-align: center;
+}
+
+img.nala{
+    width: 60%;
+    height: 60%;
+    margin-top: 18px;
+}
+
+#chatOnline{
+    padding: 1px;    
+    width: 300px;
+    height: 50%;
+    position: relative;
+    border-radius: none;
+    text-align: center;
+    margin-bottom: 50%;
+    bottom: 290px;
+    right: 125px;
+}
+
+img.iconType{
+    width: 20%;
+    height: 20%;
+}
+
+#followUs{
+    width: 5%;
+    height: 10%;
+    float: right;
+    position: relative;
+    width: 565px;
+    height: 250px;
+    bottom: 380px;
+    left: 738px;
+    padding: 0;
+    background-color: #fff;
+    border: #00fc4c solid 5px;
+    border-radius: none;
+    text-align: center;
+}
+
+footer{
+    height: 25px;
+    font-size: 1.2em;
+    color: #00fc4c;
+    text-align: center;
+    padding: 1.5em 2.0em;
+    position: relative;
+    top: 200px;
+}
+footer ul#menuFooter{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before{
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited{
+    color: #fc00e7;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #fc00e7;
+    text-decoration: underline;
+}
+
+button{
+    color: #fc00e7;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #00fc4c;
+    border: 1px solid #fc00e7;
 }
